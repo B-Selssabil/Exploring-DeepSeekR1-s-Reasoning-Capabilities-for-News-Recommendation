@@ -1,0 +1,50 @@
+{
+    "general" : 
+    {
+        "HGF":"your hugging face token",
+        "WNB":"your wnb token"
+       
+    }, 
+
+    "outputs": {
+
+        "output_model_online_Rec":"Selssabil/News-Recommender-MIND-LAST-VR-3-5-2025-20Ep",
+        "output_model_local_Rec": "/kaggle/input/frameworkmodel",
+        "output_model_online_Desc": "Selssabil/DescriptorDeepSeek",
+        "output_model_local_Desc": "/kaggle/input/frameworkdescriptor"
+
+    },
+    
+    "model" : {
+
+        "base_model" : "unsloth/DeepSeek-R1-Distill-Llama-8B",
+        "max_seq_length": 2048,
+        "load_in_4bit":"True"
+    },
+
+    "lora_config" : {
+
+        "r" : 16
+
+    },
+
+    "fine_tuning":  {
+
+        "dataset_num_proc":2,
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 4,
+        "epochs": {
+            "descriptor":5,
+            "recommender":20
+        },
+        "max_steps": -1,
+        "warmup_steps":5,
+        "learning_rate":2e-4,
+        "optim":"adamw_8bit",
+        "weight_decay":0.01,
+        "lr_scheduler_type":"linear",
+        "output_dir":"outputs"
+
+    }
+    
+}
