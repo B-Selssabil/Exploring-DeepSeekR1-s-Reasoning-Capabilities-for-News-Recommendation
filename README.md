@@ -19,10 +19,10 @@ To execute the project, follow these steps :
     }
 
 ```
-1. Preprocess the data . Run the notebook  : `1-Preprocess-Data.ipynb`
-2. Generate descriptions. Run the notebook : `2-Description-generator.ipynb`
-3. Build the recommender. Run the notebook  : `3-Recommender-generator-cot.ipynb`
-4. Evaluate the results. Run the notebook : `Evaluation.ipynb`
+3. Preprocess the data . Run the notebook  : `1-Preprocess-Data.ipynb`
+4. Generate descriptions. Run the notebook : `2-Description-generator.ipynb`
+5. Build the recommender. Run the notebook  : `3-Recommender-generator-cot.ipynb`
+6. Evaluate the results. Run the notebook : `Evaluation.ipynb`
 
 Or you can test the framework without fine-tuning it by directly running the notebook `finalFrameWork.ipynb`
 
