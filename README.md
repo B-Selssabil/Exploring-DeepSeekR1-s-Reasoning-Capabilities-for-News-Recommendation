@@ -12,8 +12,8 @@ To Execute the project, first run install all the packegs existing in the reuiqr
     {
         "HGF":"YOUR HUGGING FACE TOKEN",
         "WNB":"YOUR WNB TOKEN"
-
     }
 
 ```
-You can run the framework directly by executing 
+
+You can run the framework directly by executing
