@@ -28,3 +28,7 @@ Or you can test the framework without fine-tuning it by directly running the not
 
 ## Recommendation Performance:
 
+| AUC          | MRR          | nDCG@5       | nDCG@10      |
+|--------------|--------------|--------------|--------------|
+| 64.88 ± 0.85 | 44.43 ± 0.41 | 47.15 ± 0.52 | 57.37 ± 0.32 |
+
