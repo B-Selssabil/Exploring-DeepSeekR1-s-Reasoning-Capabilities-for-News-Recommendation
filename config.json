@@ -1,17 +1,17 @@
 {
     "general" : 
     {
-        "HGF":"your hugging face token",
-        "WNB":"your wnb token"
+        "HGF":"YOUR HUGGING FACE TOKEN",
+        "WNB":"YOUR WNB TOKEN"
        
     }, 
 
     "outputs": {
 
         "output_model_online_Rec":"Selssabil/News-Recommender-MIND-LAST-VR-3-5-2025-20Ep",
-        "output_model_local_Rec": "/kaggle/input/frameworkmodel",
         "output_model_online_Desc": "Selssabil/DescriptorDeepSeek",
-        "output_model_local_Desc": "/kaggle/input/frameworkdescriptor"
+        "output_model_local_Rec": "NewsRecommender",
+        "output_model_local_Desc": "Descriptor"
 
     },
     
