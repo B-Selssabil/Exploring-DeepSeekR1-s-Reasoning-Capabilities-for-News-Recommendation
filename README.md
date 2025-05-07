@@ -7,11 +7,7 @@ We propose an approach that seeks to explore and exploit DeepSeek-R1’s reasoni
 </p>
 To execute the project, follow these steps :
 
-<<<<<<< HEAD
 1. Install all the packages listed in the `requirements.txt` file into your environment.
-=======
-1. Install all the packages listed in the `requirements.txt` file.
->>>>>>> 3745f8b83e1ae79088fe05a3d8a9c75b38bceecc
 2. Set up your tokens :
 
 ```json
@@ -28,11 +24,6 @@ To execute the project, follow these steps :
 5. Build the recommender. Run the notebook  : `3-Recommender-generator-cot.ipynb`
 6. Evaluate the results. Run the notebook : `Evaluation.ipynb`
 
-<<<<<<< HEAD
-3. Preprocess the data . Run the notebook : `1-Preprocess-Data.ipynb`
-4. Generate descriptions. Run the notebook : `2-Description-generator.ipynb`
-5. Build the recommender. Run the notebook : `3-Recommender-generator-cot.ipynb`
-6. Evaluate the results. Run the notebook : `Evaluation.ipynb`
 
 Or you can test the framework without fine-tuning it by directly running the notebook `finalFrameWork.ipynb`
 
