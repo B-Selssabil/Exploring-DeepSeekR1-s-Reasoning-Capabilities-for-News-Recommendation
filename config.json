@@ -24,7 +24,10 @@
 
     "lora_config" : {
 
-        "r" : 16
+        "r" : {
+            "descriptor":16,
+            "recommender":32
+        }
 
     },
 
