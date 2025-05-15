@@ -37,7 +37,7 @@
         "per_device_train_batch_size": 1,
         "gradient_accumulation_steps": 4,
         "epochs": {
-            "descriptor":5,
+            "descriptor":10,
             "recommender":20
         },
         "max_steps": -1,
