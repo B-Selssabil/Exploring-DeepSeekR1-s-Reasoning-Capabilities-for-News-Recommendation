@@ -8,7 +8,7 @@ We propose an approach that seeks to explore and exploit DeepSeek-R1’s reasoni
 To execute the project, follow these steps :
 
 1. Install all the packages listed in the `requirements.txt` file into your environment.
-2. Set up your tokens :
+2. Set up your tokens in the config file :
 
 ```json
 
